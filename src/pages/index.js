@@ -16,7 +16,7 @@ const background = require('../images/Blog-Hero-Mobile-Image.jpg');
 const orchestra = require('../images/orchestre-1024x1024.jpg')
 
 const IndexPage = () => {
-  const windowHeight = window.innerHeight;
+  // const windowHeight = window.innerHeight;
   return (
     <div style={{
       backgroundColor: '#eeedeb'
@@ -28,7 +28,8 @@ const IndexPage = () => {
       }}>
 
         <Container style={{
-          height: windowHeight,
+          // height: windowHeight,
+          height: 850,
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'space-between'
