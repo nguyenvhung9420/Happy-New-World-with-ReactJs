@@ -1,0 +1,8 @@
+.donateButton:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 50px 0px rgba(245, 139, 150, 0.7);
+}
+
+.donateButton {
+    transition: 0.5s;
+}
